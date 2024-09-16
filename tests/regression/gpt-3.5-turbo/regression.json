@@ -1,0 +1,38 @@
+[
+  {
+    "input": {
+      "language": "english",
+      "style": "same",
+      "input-format": "Plain-Text",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": "The dog has a cold. You should bring his clothes."
+  },
+  {
+    "input": {
+      "language": "english",
+      "style": "as in a thriller book",
+      "input-format": "Plain-Text",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": "The dog has a cold. You should bring his clothes."
+  },
+  {
+    "input": {
+      "language": "french",
+      "style": "same",
+      "input-format": "Markdown",
+      "message": "quelq'un **sonne** au interphone"
+    },
+    "output": "Quelqu'un **sonne** à l'interphone."
+  },
+  {
+    "input": {
+      "language": "french",
+      "style": "as a in a business magazine",
+      "input-format": "Markdown",
+      "message": "*Oui* j'ai du **lait**. Voulez-vous que je le mette dans une tasse"
+    },
+    "output": "*Oui*, j'ai du **lait**. Souhaitez-vous que je le verse dans une tasse?"
+  }
+]
