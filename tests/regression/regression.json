@@ -1,0 +1,18 @@
+[
+  {
+    "input": {
+      "language": "english",
+      "style":"same",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": null
+  },
+  {
+    "input": {
+      "language": "english",
+      "style":"as in a thriller book",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": null
+  }
+]

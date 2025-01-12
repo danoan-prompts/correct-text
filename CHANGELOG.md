@@ -1,3 +1,10 @@
-# v1.0.0
+# V1
 
-- Start of Multilanguage sentence correction series
+# 1.1.0
+
+- Simplify input and output formats. Assume plain text for both.
+
+# 1.0.0
+
+- Start of multi-language sentence correction series.
+
