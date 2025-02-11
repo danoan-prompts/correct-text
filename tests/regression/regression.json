@@ -2,17 +2,6 @@
   {
     "input": {
       "language": "english",
-      "style":"same",
-      "input-format": "Plain-Text",
-      "message": "the dog have cold. You should brough his clothes"
-    },
-    "output": null
-  },
-  {
-    "input": {
-      "language": "english",
-      "style":"as in a thriller book",
-      "input-format": "Plain-Text",
       "message": "the dog have cold. You should brough his clothes"
     },
     "output": null
@@ -20,18 +9,14 @@
   {
     "input": {
       "language": "french",
-      "style":"same",
-      "input-format": "Markdown",
-      "message": "quelq'un **sonne** au interphone"
+      "message": "quelq'un sonne au interphone"
     },
     "output": null
   },
   {
     "input": {
       "language": "french",
-      "style":"as a in a business magazine",
-      "input-format": "Markdown",
-      "message": "*Oui* j'ai du **lait**. Voulez-vous que je le mette dans une tasse"
+      "message": "Oui j'ai du lait. Voulez-vous que je le met dans une tasse?"
     },
     "output": null
   }
