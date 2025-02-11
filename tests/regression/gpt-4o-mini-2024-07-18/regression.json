@@ -6,7 +6,7 @@
       "input-format": "Plain-Text",
       "message": "the dog have cold. You should brough his clothes"
     },
-    "output": "The dog has a cold. You should bring his clothes."
+    "output": "the dog has a cold. You should bring his clothes."
   },
   {
     "input": {
@@ -15,7 +15,7 @@
       "input-format": "Plain-Text",
       "message": "the dog have cold. You should brough his clothes"
     },
-    "output": "The dog is shivering. You need to bring his clothes."
+    "output": "The dog has caught a chill. You must fetch his clothes quickly."
   },
   {
     "input": {
@@ -24,7 +24,7 @@
       "input-format": "Markdown",
       "message": "quelq'un **sonne** au interphone"
     },
-    "output": "Quelqu'un **sonne** à l'interphone."
+    "output": "quelqu'un **sonne** à l'interphone"
   },
   {
     "input": {
@@ -33,6 +33,6 @@
       "input-format": "Markdown",
       "message": "*Oui* j'ai du **lait**. Voulez-vous que je le mette dans une tasse"
     },
-    "output": "*Oui*, j'ai du **lait**. Souhaitez-vous que je le verse dans une tasse ?"
+    "output": "*Oui*, j'ai du **lait**. Voulez-vous que je le verse dans une tasse ?"
   }
 ]
