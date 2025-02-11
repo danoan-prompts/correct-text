@@ -1,0 +1,22 @@
+[
+  {
+    "input": {
+      "language": "english",
+      "style": "same",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": [
+      "The dog has a cold. You should bring his clothes."
+    ]
+  },
+  {
+    "input": {
+      "language": "english",
+      "style": "as in a thriller book",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": [
+      "The dog is shivering in the chill. You must fetch his coat before the night falls."
+    ]
+  }
+]
