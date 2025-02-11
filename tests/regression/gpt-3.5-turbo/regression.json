@@ -1,0 +1,43 @@
+[
+  {
+    "input": {
+      "language": "english",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": "```json\n{\n    \"morphologie\": [\n        {\n            \"original\": \"the dog have\",\n            \"corrected\": \"the dog has\",\n            \"explanation\": \"Correction of the verb agreement from 'have' to 'has' to match the singular subject 'the dog'.\"\n        },\n        {\n            \"original\": \"brough\",\n            \"corrected\": \"brought\",\n            \"explanation\": \"Correction of the verb form from 'brough' to 'brought' to use the past participle of the verb 'bring'.\"\n        }\n    ],\n    \"syntaxe\": [\n        {\n            \"original\": \"You should brough his clothes\",\n            \"corrected\": \"You should have brought his clothes\",\n            \"explanation\": \"Addition of the auxiliary verb 'have' before 'brought' to form the correct past perfect tense in English.\"\n        }\n    ]\n}\n```"
+  },
+  {
+    "input": {
+      "language": "french",
+      "message": "quelq'un sonne au interphone"
+    },
+    "output": {
+      "morphologie": [
+        {
+          "original": "quelq'un",
+          "corrected": "quelqu'un",
+          "explanation": "Ajout de la lettre u pour former le mot correct 'quelqu'un'."
+        },
+        {
+          "original": "au",
+          "corrected": "à",
+          "explanation": "Remplacement de 'au' par 'à' pour indiquer le lieu où quelqu'un sonne, nécessitant une préposition."
+        }
+      ],
+      "syntaxe": [
+        {
+          "original": "interphone",
+          "corrected": "interphone.",
+          "explanation": "Ajout d'un point après 'interphone' pour marquer la fin de la phrase."
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "language": "french",
+      "message": "Oui j'ai du lait. Voulez-vous que je le met dans une tasse?"
+    },
+    "output": {}
+  }
+]

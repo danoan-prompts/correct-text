@@ -1,0 +1,23 @@
+[
+  {
+    "input": {
+      "language": "english",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": null
+  },
+  {
+    "input": {
+      "language": "french",
+      "message": "quelq'un sonne au interphone"
+    },
+    "output": null
+  },
+  {
+    "input": {
+      "language": "french",
+      "message": "Oui j'ai du lait. Voulez-vous que je le met dans une tasse?"
+    },
+    "output": null
+  }
+]

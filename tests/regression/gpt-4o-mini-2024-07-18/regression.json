@@ -1,0 +1,74 @@
+[
+  {
+    "input": {
+      "language": "english",
+      "message": "the dog have cold. You should brough his clothes"
+    },
+    "output": {
+      "punctuation": [],
+      "morphologie": [
+        {
+          "original": "have",
+          "corrected": "has",
+          "explanation": "Correction of 'have' to 'has' to agree with the singular subject 'dog'."
+        },
+        {
+          "original": "brough",
+          "corrected": "brought",
+          "explanation": "Correction of 'brough' to 'brought', which is the correct past tense of the verb 'bring'."
+        }
+      ],
+      "syntaxe": [
+        {
+          "original": "the dog have cold.",
+          "corrected": "the dog has a cold.",
+          "explanation": "Addition of the article 'a' before 'cold' to correctly phrase the sentence indicating that the dog is experiencing a cold."
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "language": "french",
+      "message": "quelq'un sonne au interphone"
+    },
+    "output": {
+      "morphologie": [
+        {
+          "original": "quelq'un",
+          "corrected": "quelqu'un",
+          "explanation": "Correction de l'orthographe de `quelq'un` qui doit s'écrire `quelqu'un` avec un `u` à la fin."
+        },
+        {
+          "original": "au",
+          "corrected": "à l'",
+          "explanation": "Correction de `au` en `à l'` car `interphone` commence par une voyelle et nécessite l'élision."
+        }
+      ],
+      "syntaxe": [
+        {
+          "original": "au interphone",
+          "corrected": "à l'interphone",
+          "explanation": "Changement de la préposition `au` à `à l'` pour respecter l'élision devant un mot commençant par une voyelle."
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "language": "french",
+      "message": "Oui j'ai du lait. Voulez-vous que je le met dans une tasse?"
+    },
+    "output": {
+      "punctuation": [],
+      "morphologie": [
+        {
+          "original": "met",
+          "corrected": "mets",
+          "explanation": "Correction de `met` en `mets`, le verbe `mettre` doit être conjugué à la deuxième personne du singulier (tu)."
+        }
+      ],
+      "syntaxe": []
+    }
+  }
+]
