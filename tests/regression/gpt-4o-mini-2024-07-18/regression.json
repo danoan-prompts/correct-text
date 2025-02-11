@@ -5,9 +5,7 @@
       "style": "same",
       "message": "the dog have cold. You should brough his clothes"
     },
-    "output": [
-      "The dog has a cold. You should bring his clothes."
-    ]
+    "output": "The dog has a cold. You should bring his coat."
   },
   {
     "input": {
@@ -15,8 +13,6 @@
       "style": "as in a thriller book",
       "message": "the dog have cold. You should brough his clothes"
     },
-    "output": [
-      "The dog is shivering in the chill. You must fetch his coat before the night falls."
-    ]
+    "output": "The dog is shivering with cold. You need to fetch his warm clothes."
   }
 ]

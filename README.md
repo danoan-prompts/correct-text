@@ -8,3 +8,11 @@
 
 
 
+
+
+
+## 1.1.0
+
+- Simplify input and output formats. Assume plain text for both.
+
+
