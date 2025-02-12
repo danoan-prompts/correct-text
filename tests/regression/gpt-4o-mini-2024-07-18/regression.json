@@ -5,24 +5,30 @@
       "message": "the dog have cold. You should brough his clothes"
     },
     "output": {
-      "punctuation": [],
+      "punctuation": [
+        {
+          "original": ":the",
+          "corrected": "The",
+          "explanation": "The colon (:) is unnecessary and a grammatical error; `The` should start with a capital letter."
+        }
+      ],
       "morphologie": [
         {
           "original": "have",
           "corrected": "has",
-          "explanation": "Correction of 'have' to 'has' to agree with the singular subject 'dog'."
+          "explanation": "Correction of the verb `have` to `has` to match the subject `the dog`, which is singular."
         },
         {
           "original": "brough",
           "corrected": "brought",
-          "explanation": "Correction of 'brough' to 'brought', which is the correct past tense of the verb 'bring'."
+          "explanation": "Correction of the past tense of `bring` from `brough` to `brought`."
         }
       ],
       "syntaxe": [
         {
-          "original": "the dog have cold.",
-          "corrected": "the dog has a cold.",
-          "explanation": "Addition of the article 'a' before 'cold' to correctly phrase the sentence indicating that the dog is experiencing a cold."
+          "original": "the dog have cold",
+          "corrected": "the dog has a cold",
+          "explanation": "Added the article `a` to correctly express that the dog is experiencing a cold."
         }
       ]
     }
@@ -33,25 +39,20 @@
       "message": "quelq'un sonne au interphone"
     },
     "output": {
+      "punctuation": [],
       "morphologie": [
         {
           "original": "quelq'un",
           "corrected": "quelqu'un",
-          "explanation": "Correction de l'orthographe de `quelq'un` qui doit s'écrire `quelqu'un` avec un `u` à la fin."
+          "explanation": "Correction de l'orthographe de `quelq'un` en `quelqu'un`, le mot correct étant `quelqu'un` avec un `u`."
         },
         {
           "original": "au",
           "corrected": "à l'",
-          "explanation": "Correction de `au` en `à l'` car `interphone` commence par une voyelle et nécessite l'élision."
+          "explanation": "Correction de `au` en `à l'`, car `interphone` commence par une voyelle."
         }
       ],
-      "syntaxe": [
-        {
-          "original": "au interphone",
-          "corrected": "à l'interphone",
-          "explanation": "Changement de la préposition `au` à `à l'` pour respecter l'élision devant un mot commençant par une voyelle."
-        }
-      ]
+      "syntaxe": []
     }
   },
   {
@@ -60,15 +61,21 @@
       "message": "Oui j'ai du lait. Voulez-vous que je le met dans une tasse?"
     },
     "output": {
-      "punctuation": [],
-      "morphologie": [
+      "punctuation": [
         {
-          "original": "met",
-          "corrected": "mets",
-          "explanation": "Correction de `met` en `mets`, le verbe `mettre` doit être conjugué à la deuxième personne du singulier (tu)."
+          "original": "tasse?",
+          "corrected": "tasse ?",
+          "explanation": "Ajout d'un espace avant le point d'interrogation, conformément à la règle typographique française."
         }
       ],
-      "syntaxe": []
+      "morphologie": [],
+      "syntaxe": [
+        {
+          "original": "le met",
+          "corrected": "le mette",
+          "explanation": "Correction du verbe `mettre` au subjonctif présent, puisque la phrase commence par `Voulez-vous que`, qui appelle le subjonctif."
+        }
+      ]
     }
   }
 ]
