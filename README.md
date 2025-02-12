@@ -14,9 +14,13 @@
 
 
 
+
+
 ## 1.1.0
 
 - Simplify input and output formats. Assume plain text for both.
+
+
 
 
 
@@ -38,10 +42,14 @@
 
 
 
+
+
 ## 1.2.1
 
 - Use XML-like tags to enclose input parameters and examples.
 - Update instructions to remove ambiguity.
+
+
 
 
 
@@ -53,5 +61,13 @@
 
 - Correct and explain why
 - Three categories: Punctuation, Morphology and Syntaxe
+
+
+
+
+
+## 2.0.1
+
+- Use XML-alike tags for input parameters.
 
 
